@@ -42,7 +42,6 @@ function isTwoCards() {
     var resetCards = document.getElementsByClassName('card');
     for (var i = 0; i < resetCards.length; i++) {
     	resetCards[i].innerHTML = '';
-    	console.log(resetCards[i]);
     }
   }
 
